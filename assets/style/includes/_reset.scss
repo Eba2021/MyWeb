@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: 130px;
+    height: 80px;
+    padding-bottom: 1em;
+    
+  }
+  
+
+  body {
+    
+    font-family: $alice;
+    
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    font-family: $playfair;
+    font-style: italic;
+    font-weight: unset;
+    letter-spacing: .05em;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 1.85625%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 4.5em;
+    text-align: center;
+      
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 0.825rem;
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin-top: 0;
+    font-weight: normal;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-family: $playfair;
+  }
+  
+  a {
+      text-decoration: none;
+      font-family: $sacramento;
+    
+  } 
+
+  p {
+    margin: auto auto 0;
+  }

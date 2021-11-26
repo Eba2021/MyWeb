@@ -1,0 +1,250 @@
+.main {
+    width: 100%;
+    
+    .section {
+        height: 95vh;
+        align-items: center;
+        width: 100%;
+    
+        .title {
+            text-align: center;
+            display: block;
+            float: left;
+            margin-right: 2.01406%;
+            width: 56.27969%;
+            margin-left: 21.86016%;
+            margin-top: 3.7125%;
+            margin-bottom: 1.85625%;
+            
+            
+            .logotype-small {
+                display: block;
+                color: $black;
+                font-weight: 400;
+                letter-spacing: .5em;
+                font-size: 65%;
+                font-family: "Playfair Display SC",serif;
+                font-style: normal;
+            }
+            h1 {
+                color: #1d1a19;
+                border-bottom: 1px solid #49423b;
+                padding-top: 0;
+                margin-top: 0;
+                padding-bottom: 5px;
+                font-size: 4rem;
+            }
+    
+            p {
+                padding-top: 40px;
+                font-size: 1.16667rem;
+            }
+        }
+        
+
+        .products {
+            width: 95.28%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 20px;
+            
+            
+            .item {
+                display: flex;
+                float: left;
+                width: 31.76157%;
+
+                
+                img {
+                    max-width: 100%;
+                    vertical-align: middle;
+                }
+
+                .description {
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    max-width: 300px;
+                    max-height: 300px;
+                    padding: 4em 1.5em 1.5em 1.5em;
+                    overflow: hidden;
+                    margin: auto;
+                    border-radius: 50%;
+                    opacity: 0;
+                    text-align: center;
+                    background-color: rgba(29,26,25,.5);
+                    color: #fff;
+                    transition: all .2s;
+                
+                    h1 {
+                        font-weight: normal;
+                        font-size: 36px;
+                        line-height: 1.25;
+                        width: 100%;
+                        border-bottom: 1px solid #c7c7c7;
+                        padding-bottom: 1.5rem;
+                        margin-bottom: 1rem;
+                        span {
+                            font-size: 60%;
+                            display: block;
+                        }
+                    }
+
+                    a {
+                        font-size: 36px;
+                        color: $mainColor;
+                        transition: .3s;
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
+
+                    @media (min-width: 768px) {
+                        width: 250px !important;
+                        height: 250px !important;
+                    }
+
+                    @media (min-width: 1024px) {
+                        width: 300px !important;
+                        height: 300px !important;
+                    }
+
+                    @media (min-width: 1250px) {
+                        width: 300px !important;
+                        height: 300px !important;
+                    }
+                }
+            }
+
+           
+
+            @media (min-width: 620px) {
+                flex-direction: row;
+                justify-content: space-evenly;
+                .item {
+                    width: 20%;
+                    position: relative;
+                    &:hover {
+                        .description {
+                            opacity: 1;
+                            visibility: visible;
+                            cursor: pointer;
+                            a {
+                                transform: translateY(0);
+                            }
+                        }
+                    }
+                    .description {
+                        transition: .4s;
+                        opacity: 0;
+                        visibility: hidden;
+                        width: 200px;
+                        height: 200px;
+                        position: absolute;
+                        padding: 1rem;
+                        border-radius: 50%;
+                        @include flex(column, center, center, 0);
+                        top: 88%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        background-color: rgba(29,26,25,.5)
+                        a {
+                            color: white;
+                            transform: translateY(25px);
+                            transition-delay: .2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .divider {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center 100%;
+    }
+
+    .about {
+        padding-top: 3.7125%;
+        padding-bottom: 7.425%;
+        background-color: #f4efde;
+    }
+
+    .title {
+        text-align: center;
+        display: block;
+        float: left;
+        margin-right: 2.01406%;
+        width: 56.27969%;
+        margin-left: 21.86016%;
+        margin-top: 3.7125%;
+        margin-bottom: 1.85625%;
+        
+        
+        .logotype-small {
+            display: block;
+            color: $black;
+            font-weight: 400;
+            letter-spacing: .5em;
+            font-size: 65%;
+            font-family: "Playfair Display SC",serif;
+            font-style: normal;
+        }
+        h1 {
+            color: #1d1a19;
+            border-bottom: 1px solid #49423b;
+            padding-top: 0;
+            margin-top: 0;
+            padding-bottom: 5px;
+            font-size: 4rem;
+        }
+
+        p {
+            padding-top: 40px;
+            font-size: 1.16667rem;
+        }
+    }
+
+    .about-item-wrapper {
+        display: block;
+        float: left;
+        width: 85.42656%;
+        margin-left: 7.28672%;
+        margin-top: 0;
+        margin-bottom: 7.425%;
+    }
+
+    .about-item {
+        display: block;
+        float: left;
+        width: 31.0%;
+        margin-right: 2.01406%;
+        text-align: center;
+        hyphens: auto;
+        
+        h3 {
+            padding-top: 7.425%;
+            padding-bottom: 0;
+        }
+
+        hr {
+            width: 50%;
+            height: 1px;
+            margin: 0 auto;
+            border-top: 1px solid #49423b;
+        }
+        
+        p {
+            padding: 2.01406%;
+            padding-top: 3.7125%;
+            padding-bottom: 0;
+            line-height: 1.5;
+        }
+
+        
+    }
+} 

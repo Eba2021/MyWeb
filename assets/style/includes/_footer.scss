@@ -1,0 +1,71 @@
+.footer {
+    clear: both;
+    background-color: #dba539;
+    text-align: center;
+    color: #fff;
+    
+
+    .contact {
+        vertical-align: middle;
+        line-height: 1.5;
+        margin-bottom: 3.7125%;  
+        
+
+        .logo_white {
+            margin-top: 3.7125%;
+            width: 110px;
+            height: 60px;
+        }
+
+        .logotype-small {
+            color: $white;
+            font-weight: 400;
+            letter-spacing: .5em;
+            font-size: 65%;
+            padding: 0;
+            
+                      
+        }
+    }
+
+    
+ 
+    .social-links {
+        margin-top: 0;
+        margin-bottom: 3.7125%;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        font-size: larger;
+        
+        .fab {
+            color: $white;
+        }
+    }
+
+    .charity {
+        margin-top: 0;
+        margin-bottom: 3.7125%;
+        padding: 0 2em;
+        
+        h5 {
+            font-size: 1.16667rem;
+            margin-bottom: 1.41429rem;
+            text-rendering: optimizeLegibility;
+            line-height: 1;
+            margin-top: 0;
+            font: inherit;
+            font-family: "Playfair Display SC",serif;
+            font-style: normal;
+        }
+    }
+
+    .copyright {
+        padding: 1em 0;
+        display: block;
+        background-color: #805f1e;
+    }
+}
+    
